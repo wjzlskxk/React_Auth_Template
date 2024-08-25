@@ -13,6 +13,12 @@ const requestHandler = (config: InternalAxiosRequestConfig): InternalAxiosReques
     } else {
       config.headers[REQUEST_TOKEN_KEY] = `Bearer ${accessToken}`;
     }
+
+    if (config.data instanceof FormData) {
+      config.headers["Content-Type"] = "multipart/formData";
+    } else {
+      config.headers["Content-Type"] = "application/json";
+    }
   }
 
   return config;
