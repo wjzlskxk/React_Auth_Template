@@ -18,4 +18,4 @@
 
 1. `accessToken`과`refreshToken`은 각각 `accessToken`, `refreshToken`이라는 key로 cookie에 저장됩니다.
 2. customAxios를 사용하지 않고 기본 axios를 사용하실 경우 headers 값의 `Authorization`속성은 `[REQUEST_TOKEN_KEY]`로 대체 가능합니다.
-   `ex) headers: { [REQUEST_TOKEN_KEY]: `${token.getTokekn(ACCESSTOKEN)}`}}`
+   `ex) headers: { [REQUEST_TOKEN_KEY]: ${token.getTokekn(ACCESSTOKEN)}}}`
