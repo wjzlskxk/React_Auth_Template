@@ -19,3 +19,4 @@
 1. `accessToken`과`refreshToken`은 각각 `accessToken`, `refreshToken`이라는 key로 cookie에 저장됩니다.
 2. customAxios를 사용하지 않고 기본 axios를 사용하실 경우 headers 값의 `Authorization`속성은 `[REQUEST_TOKEN_KEY]`로 대체 가능합니다.
    `ex) headers: { [REQUEST_TOKEN_KEY]: ${token.getTokekn(ACCESSTOKEN)}}}`
+3. react-query를 사용하시면 보다 편리하게 사용 가능합니다. [참고자료](https://velog.io/@wjzlskxk/React-Query%EB%A1%9C-axios%ED%86%B5%EC%8B%A0%ED%95%98%EA%B8%B0)
