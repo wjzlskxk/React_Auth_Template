@@ -11,6 +11,9 @@
 3. `/src/libs/axios/responseHandler.ts`의 50번째 줄 `window.location.href = "/login";`의 href를 사용자의 로그인 url로 변경 하셔야 합니다.
 4. `/src/libs/axios/responseHandler.ts`의 34, 35, 38번째 줄을 서버 response값에 따라 변경 하셔야 합니다.
 
+### How to Use
+레포지토리 starts 옆에 Use this template라는 버튼을 클릭한 후 원래의 레포지토리 처럼 생성하면 된다.
+
 ### ETC
 
 1. `accessToken`과`refreshToken`은 각각 `accessToken`, `refreshToken`이라는 key로 cookie에 저장됩니다.
