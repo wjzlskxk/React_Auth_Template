@@ -7,9 +7,10 @@
 ### User Modifications
 
 1. `.env`파일에 있는 `REACT_APP_BASE_URL`은 사용자의 API BASEURL 주소로 변경하셔야 합니다.
-2. `/src/libs/axios/requestHandler.ts`의 12번째 줄 `window.location.href = "/login";`의 href를 사용자의 로그인 url로 변경 하셔야 합니다.
-3. `/src/libs/axios/responseHandler.ts`의 50번째 줄 `window.location.href = "/login";`의 href를 사용자의 로그인 url로 변경 하셔야 합니다.
-4. `/src/libs/axios/responseHandler.ts`의 34, 35, 38번째 줄을 서버 response값에 따라 변경 하셔야 합니다.
+2. 이 템플릿으로 개발을 진행 하실 경우 `.gitignore`파일에 env를 추가하셔야 합니다.
+3. `/src/libs/axios/requestHandler.ts`의 12번째 줄 `window.location.href = "/login";`의 href를 사용자의 로그인 url로 변경 하셔야 합니다.
+4. `/src/libs/axios/responseHandler.ts`의 50번째 줄 `window.location.href = "/login";`의 href를 사용자의 로그인 url로 변경 하셔야 합니다.
+5. `/src/libs/axios/responseHandler.ts`의 34, 35, 38번째 줄을 서버 response값에 따라 변경 하셔야 합니다.
 
 ### How to Use
 레포지토리 starts 옆에 Use this template라는 버튼을 클릭한 후 원래의 레포지토리 처럼 생성하면 된다.
